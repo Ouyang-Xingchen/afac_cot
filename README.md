@@ -4,7 +4,7 @@
 
 ## 环境要求
 
-- Python 3.8+
+- Python 3.11+
 - CUDA 11.7+ (用于 GPU 加速)
 - 至少 16GB GPU 显存 (用于运行 Qwen3-4B 模型)
 
@@ -18,7 +18,7 @@ cd [repository_name]
 
 2. 创建并激活虚拟环境（推荐使用 conda）：
 ```bash
-conda create -n afac_cot python=3.8
+conda create -n afac_cot python=3.11
 conda activate afac_cot
 ```
 
